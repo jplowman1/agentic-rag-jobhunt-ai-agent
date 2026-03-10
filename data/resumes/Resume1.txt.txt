@@ -1,0 +1,73 @@
+JASON PLOWMAN
+plowman.jason@gmail.com • +1-240-515-8830 • Germantown, MD
+SUMMARY
+Senior Machine Learning Engineer with 20+ years of software engineering experience and 5+ years building and deploying production ML systems in mission-critical environments. Expert in Python-based data pipelines, PyTorch modeling, and end-to-end ML lifecycle development from large-scale data ingestion through real-time inference and monitoring. Active Secret clearance with extensive experience delivering analytics and AI capabilities for government and defense applications.
+CLEARANCE
+• DoD Secret Security Clearance
+• Eligible and willing to upgrade to TS/SCI
+• Experienced working in SCIFs
+EXPERIENCE
+Mobius, Sr Software Engineer / Machine Learning Engineer
+2022 - 2026
+Designed and deployed production machine learning systems for large-scale network telemetry analysis, enabling real-time traffic classification and operational insight.
+• Architected end-to-end ML data pipelines for high-volume network traffic datasets, including ingestion, feature engineering, model training, validation, and production inference.
+• Developed PyTorch LSTM models for real-time traffic classification, improving detection performance by 80% F1 while maintaining strict latency constraints.
+• Optimized real-time inference pipelines for high-throughput environments, improving system responsiveness and scalability for operational deployments.
+• Built and maintained Apache NiFi ETL workflows and custom processors to process and normalize large-scale telemetry data streams, improving processing efficiency by ~25%.
+• Implemented containerized ML deployment workflows using Docker and CI/CD automation (GitHub Actions) to support reproducible model training, packaging, and deployment.
+• Collaborated with engineering and operational stakeholders to translate mission requirements into ML-driven data products and analytics capabilities.
+• Maintained full ML lifecycle management, including model evaluation, deployment monitoring, retraining pipelines, and operational performance tuning.
+• Developed exploratory data analysis and visualization workflows to support model validation and operational decision-making.
+Jacobs, Software and Systems Architect
+2013 - 2022
+• Managed a small team (5 engineers) delivering secure, network-enabled telephony and communications platforms for DoD clients.
+• Led platform updating effort to modernize infrastructure’s OS, software packages, and languages.
+
+packages, and languages.
+page 2 of 3
+• Applied Machine (Deep) Learning Neural Network models to invent novel, patentable
+solutions for client- (1) Threat Assessment from voiceprinting inbound callers, and (2) Call
+operator voice identity protection by natural sounding deep-fake voice masks.
+• Managed up to 5 live voice and data communications platforms simultaneously.
+Lockheed Martin, Software Consultant
+2012 - 2013
+• Completed real-time software modules and updated interfaces in C++ for RTOS VxWorks.
+• Automated testing using Perl scripts.
+Thales, Sr. Embedded Software Engineer
+2010 - 2012
+• Full software lifecycle development using CORBA, C++, Linux, and VxWorks
+• Used Scrum Agile Methodology in my work (Daily Scrum Meeting, Planning Poker, Sprint Backlog,
+1on1 meeting)
+Renaissance Lighting, Embedded Systems Engineer
+2008 - 2010
+• Developed dynamic color engine for lighting fixture using microcontroller Microchip PIC32 in C.
+Northrop Grumman, Sr. Software Engineer
+2004 - 2007
+• Real-time software development (C/C++, PSos, assembly for Freescale PPC, DSP)
+utilizing CMMI Level 5 development process.
+Lockheed Martin, Software and Systems Engineer
+2000 - 2004
+• Developed real-time C++ embedded software distributed over fiber-optic ethernet network.
+EDUCATION
+Georgia Institute of Technology
+MS • Computer Science • Machine Learning track
+GPA 4.0 / 4.0
+Johns Hopkins University
+MS • Computer Engineering
+GPA 4.0 / 4.0
+University of Minnesota BS • Physics
+GPA 3.6 / 4.0
+CERTIFICATIONS
+Artificial Intelligence Certificate
+Stanford University • expected Apr 2026
+page 3 of 3
+SKILLS
+Python Data Stack
+• Python
+• pandas
+• NumPy
+• scikit-learn
+• PyTorch
+• Matplotlib
+Other Skills
+C/C++ • SQL • feature engineering • MLOps • MLflow • Amazon Web Services (AWS) • Network Protocols

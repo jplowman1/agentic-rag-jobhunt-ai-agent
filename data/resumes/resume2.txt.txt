@@ -1,0 +1,72 @@
+page 1 of 3
+JASON PLOWMAN
+AI / ML Solutions Architect
+plowman.jason@gmail.com • +1-240-515-8830 • Germantown, MD
+CLEARANCE
+DoD Secret Clearance • Eligible for TS/SCI • SCIF experience
+SUMMARY
+AI / Machine Learning Solutions Architect with 20+ years of software engineering experience including 4+ years designing and deploying production ML systems in mission-critical environments. Experienced architecting end-to-end AI solutions including data pipelines, model training, real-time inference systems, and scalable deployments. Proven ability to translate operational problems into deployable AI capabilities for government and defense organizations. DoD Secret clearance with extensive experience supporting mission systems.
+EXPERIENCE
+Mobius, Senior Machine Learning Engineer – AI Systems & Production ML Pipelines
+2022 - 2026
+Mobius provides fraud detection and revenue protection analytics for global mobile network operators.
+• Architected production AI/ML systems for large-scale network telemetry analytics, designing end-to-end pipelines for data ingestion, model training, and real-time inference.
+• Developed PyTorch LSTM models for real-time traffic classification, improving detection performance by 80% F1 while maintaining strict latency constraints.
+• Optimized real-time inference pipelines for high-throughput environments, improving system responsiveness and scalability for operational deployments.
+• Built and maintained Apache NiFi ETL workflows and custom processors to process and normalize large-scale telemetry data streams, improving processing efficiency by ~25%.
+• Implemented containerized ML deployment workflows using Docker and CI/CD automation (GitHub Actions) to support reproducible model training, packaging, and deployment.
+• Collaborated with engineering and operational stakeholders to translate mission requirements into ML-driven data products and analytics capabilities.
+• Maintained full ML lifecycle management, including model evaluation, deployment monitoring, retraining pipelines, and operational performance tuning.
+• Developed exploratory data analysis and visualization workflows to support model validation and operational decision-making.
+Jacobs, Software and Systems Architect
+2013 - 2022
+• Led architecture and development of secure telephony and communications platforms for DoD clients, managing a team of five engineers delivering mission-critical systems.
+• Led platform updating effort to modernize infrastructure’s OS, software packages, and languages.
+• Applied Machine (Deep) Learning Neural Network models to invent novel, patentable
+page 2 of 3
+solutions for client- (1) Threat Assessment from voiceprinting inbound callers, and (2) Call
+operator voice identity protection by natural sounding deep-fake voice masks.
+• Managed up to 5 live voice and data communications platforms simultaneously.
+• Collaborated with stakeholders to translate operational challenges into deployable AI/ML
+analytics solutions.
+Lockheed Martin, Software Consultant
+2012 - 2013
+• Completed real-time software modules and updated interfaces in C++ for RTOS VxWorks.
+• Automated testing using Perl scripts.
+Thales, Sr. Embedded Software Engineer
+2010 - 2012
+• Full software lifecycle development using CORBA, C++, Linux, and VxWorks
+• Used Scrum Agile Methodology in my work (Daily Scrum Meeting, Planning Poker, Sprint Backlog,
+1on1 meeting)
+Renaissance Lighting, Embedded Systems Engineer
+2008 - 2010
+• Developed dynamic color engine for lighting fixture using microcontroller Microchip PIC32 in C.
+Northrop Grumman, Sr. Software Engineer
+2004 - 2007
+• Real-time software development (C/C++, PSos, assembly for Freescale PPC, DSP) utilizing
+CMMI Level 5 development process.
+Lockheed Martin, Software and Systems Engineer
+2000 - 2004
+• Developed real-time C++ embedded software distributed over fiber-optic ethernet network.
+EDUCATION
+Georgia Institute of Technology
+MS • Computer Science • Machine Learning track
+GPA 4.0 / 4.0
+Johns Hopkins University
+MS • Computer Engineering
+GPA 4.0 / 4.0
+University of Minnesota BS • Physics
+GPA 3.6 / 4.0
+page 3 of 3
+CERTIFICATIONS
+Artificial Intelligence Certificate
+Stanford University • expected Apr 2026
+SKILLS
+AI / Machine Learning
+Machine Learning • Deep Learning • RNN/LSTM Networks • ML Pipelines • Generative AI Concepts • Model Evaluation • Feature Engineering
+AI Platforms (familiarity)
+Bedrock • Azure OpenAI • Vertex AI • Hugging Face • LangChain
+Python Data Stack
+Python • pandas • NumPy • scikit-learn • PyTorch • Matplotlib
+Other Skills
+C/C++ • SQL • feature engineering • MLOps • MLflow • Amazon Web Services (EC2, S3, Sagemaker) • Network Protocols

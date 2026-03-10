@@ -1,0 +1,38 @@
+Lead AI/ML Engineer
+Remote
+Capital Technology Group provides expert consulting services software development, digitaltransformation, human-centered design, data analytics and visualization, and cybersecurity.
+Our multidisciplinary teams use agile methodologies to rapidly and incrementally delivervalue in close collaboration with our clients. For over a decade, we have been trusted by bothfederal and commercial clients to solve complex, mission-critical business challenges. Thequality of our work has been recognized by our partners and peers through our inclusion inthe Digital Services Coalition, a group of forward- thinking firms recognized for excellence indelivering IT services.
+Description
+Capital Technology Group
+(CTG) is on a mission to modernize and innovate the way the federalgovernment delivers software. We are passionate about our work, dedicated to our clients,and committed to a culture of continuous learning and growth. For this role specifically, weare seeking individuals to help support high-impact, civic tech within the federal government.
+Apply
+Privacy - Terms
+2/16/26, 3:04 PM Job Application for Lead AI/ML Engineer at Capital Technology Group
+https://job-boards.greenhouse.io/capitaltg/jobs/4369277007?gh_jid=4369277007 1/6
+As an integral part of the program, the Lead AI/ML Engineer leads the team in evaluating newor emerging technologies using prototypes and/or proof of concepts, analyzes andcommunicates the benefits and risks in implementing solutions using the new technologies,and lead teams to support the adoption of new technologies across the enterprise. The LeadAI/ML Engineer will also provide technical leadership by supervising and mentoring junior ITspecialists.
+Client Requirements:
+applicants
+MUST BE US Citizens
+and be able to obtain Public Trustclearance
+Responsibilities
+Leads the team in evaluating new or emerging technologies using prototypes and/orproof of concepts
+Analyzes and communicates the benefits and risks in implementing solutions using thenew technologies
+Shall have the ability to perform as a developer, operations, and security engineerin cloud environments
+Lead teams to support the adoption of new technologies across the enterprise
+Provides technical leadership by supervising and mentoring junior IT specialists
+Requirements
+Bachelors Degree
+10 years of relevant experience
+With at least 3 years of experience deploying production enterprise applications inAWS that use AI/ML
+Strong proficiency in Python
+Experience with machine learning frameworks such as TensorFlow or PyTorch
+Solid data manipulation and analysis skills using pandas
+Experience working with cloud platforms, with AWS preferred
+Must be able to get up-to-speed quickly on new projects and technologies
+Strong communication and problem-solving skills
+Nice to Have Skills
+People Management Experience
+Salary Range
+We are committed to offering a competitive salary for this position, with an estimated rangeof $155k to $185k annually. Please note that this range is intended to provide a general idea
+2/16/26, 3:04 PM Job Application for Lead AI/ML Engineer at Capital Technology Group
+https://job-boards.greenhouse.io/capitaltg/jobs/4369277007?gh_jid=4369277007 2/6

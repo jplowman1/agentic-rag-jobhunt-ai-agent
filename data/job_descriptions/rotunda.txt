@@ -1,0 +1,117 @@
+Position Title: Senior Technical Advisor / Technical Project Manager
+Clearance: Secret required Rotunda Solutions is a data strategy, analytics, and systems engineering firm providing expertise on high profile projects. Located in the metropolitan Washington D.C. area, we have created a collaborative environment where our employees enjoy the opportunity to showcase their technical skills on interesting projects, gaining valuable experience and continuously learning alongside top-notch colleagues. For those seeking involvement in the unique and exciting environment of a successful start-up, we have a culture of mentorship and plenty of chances to get involved in internal work. Our deep network of resources enables us to offer the comprehensive benefits of a large company with the camaraderie, opportunities, and perks of a small business. We put employees first! We are seeking a highly motivated Senior Technical Advisor and Technical Project Manager to support enterprise AI and autonomy initiatives for a longstanding Department of War client. This role will provide strategic technical leadership and program oversight for AI-enabled autonomy efforts, with a particular focus on computer vision data pipelines, model development infrastructure, and operational deployment capabilities.
+The ideal candidate will combine deep technical understanding of AI/ML systems with strong leadership and stakeholder engagement skills, serving as a trusted advisor to senior Department stakeholders while guiding technical teams and capability providers toward mission outcomes. This role requires someone who can operate effectively in complex, multi-stakeholder environments, manage evolving technical requirements, and translate operational needs into executable AI and data engineering initiatives.
+The candidate will support Enterprise Frontier AI and Autonomy initiatives, collaborating across Services and Agencies to enable data curation, labeling, training infrastructure, testing and evaluation, and operational model deployment for autonomy-enabled systems.
+Position Responsibilities
+Strategic Technical Leadership
+•
+Serve as a Senior Technical Advisor providing guidance and perspective on AI/ML, computer vision, and data engineering best practices to support autonomy-enabling initiatives across the Department.
+•
+Provide technical leadership to guide stakeholders toward value-driven decisions and mission-aligned outcomes.
+•
+Translate operational needs into technical roadmaps, program plans, and actionable deliverables for AI and autonomy development.
+Stakeholder Engagement
+•
+Engage and collaborate with senior Department stakeholders across Services and Agencies, including GS-15 and O-6 level leadership, to gather operational requirements and technical feedback.
+•
+Facilitate clear communication between technical teams, program leadership, and executive stakeholders, translating complex technical concepts into mission impact.
+•
+Serve as a key liaison among data scientists, ML engineers, product managers, vendors, research partners, and government leadership.
+Program Initiation and Development
+•
+Lead the definition and planning of new initiatives, including development of technical scope for OTA prototype and production efforts.
+•
+Define Key Performance Parameters (KPPs) and Key System Attributes (KSAs) to enable measurable evaluation of program success.
+•
+Identify emerging technical opportunities and help bootstrap new autonomy-enabling initiatives.
+Program Execution and Oversight
+•
+Manage cost, schedule, and performance for ongoing AI and data engineering efforts delivered through FFRDC partners, OTA performers, and other technical providers.
+•
+Oversee technical execution of initiatives delivering:
+o
+Data curation and labeling pipelines
+o
+AI/ML model development and training infrastructure
+o
+Testing and evaluation capabilities
+o
+Operational deployment infrastructure for AI-enabled systems
+•
+Identify and mitigate program risks including data quality, model performance, and regulatory or security constraints.
+Technical Program Coordination
+•
+Manage a distributed computer vision data pipeline involving multiple stakeholders and capability providers.
+•
+Coordinate cross-functional teams to ensure alignment between data engineering, ML development, infrastructure, and operational deployment efforts.
+•
+Allocate resources effectively across initiatives and manage competing priorities in a dynamic mission environment.
+Required Qualifications
+•
+Active Secret (or higher) clearance
+•
+Bachelor’s degree in Data Science, Computer Science, Engineering, Information Technology, Statistics, or related field
+•
+5+ years of experience working in data science, AI/ML engineering, or related technical fields
+•
+3+ years of experience working in a DoD environment
+•
+Demonstrated experience leading technical programs or projects involving AI/ML systems
+•
+Proven understanding of:
+o
+AI/ML development pipelines
+o
+Data curation, preparation, and labeling
+o
+MLOps practices supporting model development and deployment
+•
+Strong written and verbal communication skills, including experience presenting to senior government leadership
+•
+Ability to work independently while coordinating across multiple stakeholders and technical teams
+Preferred Qualifications
+•
+Demonstrated ability to develop and manage program roadmaps, timelines, and milestones across multiple AI/ML initiatives
+•
+Experience with computer vision model development, particularly object detection, classification, and tracking
+•
+Experience supporting autonomous sensing, robotic, or autonomous decision systems
+•
+Experience managing OTA prototype and production programs
+•
+Experience with commercial ML Ops platforms and data management tools
+•
+Ability to translate operational requirements into technical architecture and program execution plans
+•
+Understanding of sensor modalities used within the Department and the operational employment of these sensors
+•
+Familiarity with autonomous system development practices, testing frameworks, and evaluation methodologies
+•
+Familiarity with National System for Geospatial-Intelligence (NSG) networks and security controls
+Position Type: Full-time Work Location: On-site in client locations in Bailey’s Crossroads, VA and Arlington, VA
+Travel: 5%
+Benefits:
+•
+Competitive Salary
+•
+Flexible work schedule
+•
+Time Off: PTO, VTO, Holidays
+•
+Full Competitive Benefits Package
+•
+Medical/Dental/Vision Coverage
+•
+Pre-tax FSA and HSA
+•
+Life and Disability Insurance
+•
+Educational Assistance
+•
+401K Plan with 4% Non-elective Employer Contribution
+•
+Performance-based profit sharing
+•
+Opportunities to volunteer and give to charities
+•
+Employee and growth-centered culture of teamwork and shared goals
