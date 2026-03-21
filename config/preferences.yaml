@@ -1,0 +1,87 @@
+# Job Search Preferences
+# Used by job_scorer.py to compute a preference score for each job.
+# Combine with semantic fit score for overall job ranking.
+
+# ---------------------------------------------------------------------------
+# Scoring weights (must sum to 1.0)
+# ---------------------------------------------------------------------------
+weights:
+  semantic_fit: 0.60      # LLM-assessed match between resume and JD
+  compensation: 0.20      # How well the comp aligns with your targets
+  work_arrangement: 0.15  # Remote/hybrid/onsite preference
+  role_priority: 0.05     # Bonus for preferred themes/keywords
+
+# ---------------------------------------------------------------------------
+# Location
+# ---------------------------------------------------------------------------
+location:
+  home: "Germantown, MD"
+  commute_thresholds:
+    nearby_max_minutes: 30    # hybrid "nearby" — full preference score
+    far_max_minutes: 60       # hybrid "far"   — reduced preference score
+    # Beyond far_max_minutes onsite/hybrid is treated as unacceptable
+
+# ---------------------------------------------------------------------------
+# Work arrangement (score 0–100 assigned to each tier)
+# ---------------------------------------------------------------------------
+work_arrangement:
+  fully_remote: 100
+  hybrid_nearby: 80       # < nearby_max_minutes commute
+  hybrid_far: 50          # 30–60 min commute
+  hybrid_unknown: 60      # hybrid but location not specified in JD
+  onsite_nearby: 40
+  onsite_far: 10
+  not_specified: 70       # Assume negotiable
+
+# ---------------------------------------------------------------------------
+# Compensation
+# ---------------------------------------------------------------------------
+compensation:
+  floor: 180000           # Minimum acceptable base salary (USD)
+  target: 220000          # Ideal base salary
+  ceiling: 300000         # Above this is full score (don't penalize for high)
+  # Scoring:
+  #   >= target   → 100
+  #   floor–target → linear 50–100
+  #   < floor      → 0 (hard disqualifier — override with floor_is_hard: false)
+  floor_is_hard: false    # Set true to auto-disqualify below-floor roles
+  not_specified: 60       # Score when comp is not listed in JD
+
+# ---------------------------------------------------------------------------
+# Role priorities (bonus keywords — presence boosts role_priority score)
+# ---------------------------------------------------------------------------
+role_priorities:
+  - "AI/ML"
+  - "machine learning"
+  - "RAG"
+  - "agentic"
+  - "LLM"
+  - "federal"
+  - "DoD"
+  - "solutions architect"
+  - "leadership"
+  - "clearance"
+  - "Secret"
+
+# ---------------------------------------------------------------------------
+# LLM / pipeline config
+# ---------------------------------------------------------------------------
+llm:
+  provider: "bedrock"                        # bedrock | openai
+  model_id: "us.anthropic.claude-3-5-haiku-20241022-v1:0"
+  # Uncomment for Sonnet (better quality, higher cost):
+  # model_id: "us.anthropic.claude-3-5-sonnet-20241022-v2:0"
+  region: "us-east-1"
+  temperature: 0
+
+embeddings:
+  provider: "bedrock"                        # bedrock | openai
+  model_id: "amazon.titan-embed-text-v2:0"
+  region: "us-east-1"
+
+# ---------------------------------------------------------------------------
+# MLflow
+# ---------------------------------------------------------------------------
+mlflow:
+  experiment_name: "job-match-pipeline"
+  tracking_uri: "mlruns"                     # local directory; swap for remote URI
