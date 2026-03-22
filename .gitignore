@@ -215,3 +215,6 @@ data/output/
 # Sensitive / personal data - never commit
 data/resumes/
 data/job_descriptions/
+
+# Local preferences override (personal values, never commit)
+config/preferences.local.yaml

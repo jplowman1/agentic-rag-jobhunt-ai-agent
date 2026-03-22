@@ -1,6 +1,6 @@
-# Job Search Preferences
-# Used by job_scorer.py to compute a preference score for each job.
-# Combine with semantic fit score for overall job ranking.
+# Job Search Preferences — TEMPLATE
+# Copy this file to config/preferences.local.yaml and fill in your own values.
+# preferences.local.yaml is gitignored and will never be committed.
 
 # ---------------------------------------------------------------------------
 # Scoring weights (must sum to 1.0)
@@ -15,11 +15,10 @@ weights:
 # Location
 # ---------------------------------------------------------------------------
 location:
-  home: "Germantown, MD"
+  home: "Your City, State"
   commute_thresholds:
     nearby_max_minutes: 30    # hybrid "nearby" — full preference score
     far_max_minutes: 60       # hybrid "far"   — reduced preference score
-    # Beyond far_max_minutes onsite/hybrid is treated as unacceptable
 
 # ---------------------------------------------------------------------------
 # Work arrangement (score 0–100 assigned to each tier)
@@ -37,13 +36,9 @@ work_arrangement:
 # Compensation
 # ---------------------------------------------------------------------------
 compensation:
-  floor: 180000           # Minimum acceptable base salary (USD)
-  target: 220000          # Ideal base salary
-  ceiling: 300000         # Above this is full score (don't penalize for high)
-  # Scoring:
-  #   >= target   → 100
-  #   floor–target → linear 50–100
-  #   < floor      → 0 (hard disqualifier — override with floor_is_hard: false)
+  floor: 120000           # Minimum acceptable base salary (USD)
+  target: 160000          # Ideal base salary
+  ceiling: 300000         # Above this is full score
   floor_is_hard: false    # Set true to auto-disqualify below-floor roles
   not_specified: 60       # Score when comp is not listed in JD
 
@@ -53,15 +48,9 @@ compensation:
 role_priorities:
   - "AI/ML"
   - "machine learning"
-  - "RAG"
-  - "agentic"
   - "LLM"
   - "federal"
-  - "DoD"
   - "solutions architect"
-  - "leadership"
-  - "clearance"
-  - "Secret"
 
 # ---------------------------------------------------------------------------
 # LLM / pipeline config

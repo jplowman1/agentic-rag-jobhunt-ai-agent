@@ -3,19 +3,12 @@ Embedding abstraction — supports Bedrock (Titan) and OpenAI.
 Provider and model are controlled by config/preferences.yaml.
 """
 import os
-from pathlib import Path
 
-import yaml
 from dotenv import load_dotenv
 
+from src.config_loader import load_config
+
 load_dotenv()
-
-_CONFIG_PATH = Path(__file__).parent.parent / "config" / "preferences.yaml"
-
-
-def _load_config():
-    with open(_CONFIG_PATH) as f:
-        return yaml.safe_load(f)
 
 
 def get_embeddings():
@@ -23,7 +16,7 @@ def get_embeddings():
     Return a LangChain Embeddings instance based on preferences.yaml.
     Drop-in replacement anywhere LangChain expects an Embeddings object.
     """
-    cfg = _load_config()
+    cfg = load_config()
     provider = cfg["embeddings"]["provider"]
     model_id = cfg["embeddings"]["model_id"]
     region = cfg["embeddings"].get("region", "us-east-1")

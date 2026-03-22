@@ -13,19 +13,16 @@ Flow per job description:
 from __future__ import annotations
 
 import textwrap
-from pathlib import Path
 from typing import Any
 
 import mlflow
-import yaml
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 
+from src.config_loader import load_config
 from src.job_scorer import compute_composite_score, compute_preference_score
 from src.retrieve import get_retriever
-
-_CONFIG_PATH = Path(__file__).parent.parent / "config" / "preferences.yaml"
 
 
 # ---------------------------------------------------------------------------
@@ -186,8 +183,7 @@ def run_pipeline(
             mlflow_run_id: str,
         }
     """
-    with open(_CONFIG_PATH) as f:
-        cfg = yaml.safe_load(f)
+    cfg = load_config()
 
     mlflow.set_tracking_uri(cfg["mlflow"]["tracking_uri"])
     mlflow.set_experiment(cfg["mlflow"]["experiment_name"])

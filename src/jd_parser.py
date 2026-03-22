@@ -16,13 +16,11 @@ from __future__ import annotations
 
 import json
 import re
-from pathlib import Path
 
-import yaml
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
-_CONFIG_PATH = Path(__file__).parent.parent / "config" / "preferences.yaml"
+from src.config_loader import load_config
 
 _EXTRACT_PROMPT = ChatPromptTemplate.from_template("""\
 Extract structured metadata from the job description below.
@@ -64,10 +62,7 @@ def extract_jd_metadata(jd_text: str) -> dict:
     Parse a JD and return a metadata dict.
     Falls back gracefully — any field that can't be extracted is None.
     """
-    with open(_CONFIG_PATH) as f:
-        cfg = yaml.safe_load(f)
-
-    llm = _get_llm(cfg)
+    llm = _get_llm(load_config())
     chain = _EXTRACT_PROMPT | llm | StrOutputParser()
 
     try:

@@ -5,16 +5,11 @@ Preference scoring — converts job description metadata into a
 Combines with the semantic fit score (from rag_pipeline) into an
 overall composite score.
 """
-from pathlib import Path
-
-import yaml
-
-_CONFIG_PATH = Path(__file__).parent.parent / "config" / "preferences.yaml"
+from src.config_loader import load_config
 
 
 def _load_prefs() -> dict:
-    with open(_CONFIG_PATH) as f:
-        return yaml.safe_load(f)
+    return load_config()
 
 
 # ---------------------------------------------------------------------------
