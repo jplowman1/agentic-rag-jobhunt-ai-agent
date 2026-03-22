@@ -211,3 +211,7 @@ chroma_db/
 mlruns/
 data/output/
 .claude/
+
+# Sensitive / personal data - never commit
+data/resumes/
+data/job_descriptions/
