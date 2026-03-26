@@ -43,6 +43,8 @@ def store_chunks(chunks: list[dict], collection_name: str = COLLECTION_NAME) -> 
         embedding_function=get_embeddings(),
         persist_directory=CHROMA_PATH,
     )
+    # using the private collection API works but add_texts() would be the cleaner LangChain-native approach
+    # for production code, consider refactoring to use add_texts() and handle embedding generation separately
     vs._collection.add(
         ids=ids,
         documents=texts,

@@ -57,9 +57,9 @@ role_priorities:
 # ---------------------------------------------------------------------------
 llm:
   provider: "bedrock"                        # bedrock | openai
-  model_id: "us.anthropic.claude-3-5-haiku-20241022-v1:0"
-  # Uncomment for Sonnet (better quality, higher cost):
-  # model_id: "us.anthropic.claude-3-5-sonnet-20241022-v2:0"
+  model_id: "us.anthropic.claude-sonnet-4-6"
+  # Faster/cheaper alternative:
+  # model_id: "us.anthropic.claude-haiku-4-5-20251001-v1:0"
   region: "us-east-1"
   temperature: 0
 
